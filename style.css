@@ -1,0 +1,59 @@
+.container1 {
+  background-color: #66a7f3;
+  color: white;
+  display: flex;
+  flex-direction: row;
+
+
+}
+.highOnCoding{
+  padding: 10px;
+  font-size: 50px;
+}
+
+.home{
+  margin-top: 60px;
+  margin-left: 3%;
+  font-size: 30px;
+  font-weight: bolder;
+
+}
+
+.categories{
+  margin-top: 60px;
+  margin-left: 2%;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.container2 {
+  background-color: #dddee0;
+  margin-left: 3%;
+  margin-right: 3%;
+
+}
+
+.curse {
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+.cursePara {
+  padding: 1%;
+}
+
+.container3 {
+  margin-left: 3%;
+  margin-right: 3%;
+
+}
+
+.helloWatchkit {
+  color: #3872bf;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+.watchkitPara {
+  padding: 1%;
+}
