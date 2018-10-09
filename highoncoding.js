@@ -55,3 +55,33 @@ let watchCont = document.createTextNode("Apple released the anticipated WatchKit
 watchkitPara.className = "watchkitPara"
 watchkitPara.appendChild(watchCont)
 document.getElementById("container3").append(watchkitPara)
+
+let likesBar = document.createElement("div")
+let barCont = document.createTextNode("12 comments             124 likes")
+likesBar.className="likesBar"
+likesBar.appendChild(barCont)
+document.getElementById("container3").append(likesBar)
+
+
+let container4 = document.createElement("div")
+container4.setAttribute("id", "container4")
+container4.setAttribute("class", "container4")
+document.getElementById("container").append(container4)
+
+let h4 = document.createElement("h1")
+let h4Text = document.createTextNode("Introduction to Swift")
+h4.className = "helloWatchkit"
+h4.appendChild(h4Text)
+document.getElementById("container4").appendChild(h4)
+
+let introPara = document.createElement("div")
+let introCont = document.createTextNode("Apple released the anticipated WatchKit Framework for developers in the form of iOS 8.2 beta SDK release. The WatchKit framework enable the developers to create Apple Watch applications. In this article we are going to focus on the basics of getting started with the WatchKit framework and developing apps for the Apple Watch.")
+introPara.className = "watchkitPara"
+introPara.appendChild(introCont)
+document.getElementById("container4").append(introPara)
+
+let likesBar2 = document.createElement("div")
+let barCont2 = document.createTextNode("15 comments             45 likes")
+likesBar2.className="likesBar"
+likesBar2.appendChild(barCont2)
+document.getElementById("container4").append(likesBar2)
